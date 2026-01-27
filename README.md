@@ -50,7 +50,7 @@ In this [notebook](https://github.com/Lottie-641/EB-ReFine/blob/main/test.ipynb)
 </div>
 On the Helpdesk dataset, the heatmap shows that performance is more sensitive to β than to the threshold θ: higher β (around 0.8–0.9) consistently yields better and more stable mean DL similarity. In contrast, θ has a relatively small effect within 0.1–0.8, while setting θ too high (0.9) noticeably degrades performance, likely due to overly conservative overriding. Therefore, we choose β = 0.8 and θ = 0.4 as the default configuration.
 
-## Inference Time Comparison (No-Freq vs With-Freq) 
+## Inference Time Comparison
 Run multiple iterations (2000 runs) and report: total time and avg time per run
 - Notebook: test.ipynb
 
